@@ -14,8 +14,7 @@ public class RegisterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_register);
     }
     public void irlogin(View view){
-        Intent myintent = new Intent(this, LogInActivity.class);
-        startActivity(myintent);
+        finish();
 
     }
 
